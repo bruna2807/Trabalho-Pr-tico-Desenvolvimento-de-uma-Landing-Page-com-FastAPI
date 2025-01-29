@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Loja de Roupas{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Bem-vindo à Nossa Loja!</h1>
+</div>
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/ims/slide (5).svg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/ims/slide (5).svg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/ims/slide (5).svg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="text-center">
+    <h1>Encontre as melhores roupas com preços incríveis.</h1>
+</div>
+<div class="card-group">
+    <div class="card">
+      <img src="/static/ims/home.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Melhores preços</h5>
+        <p class="card-text">Aqui, cada peça foi cuidadosamente escolhida para que você se sinta única, elegante e poderosa. Seja para o dia a dia ou para momentos especiais, temos tudo o que você precisa para arrasar.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/static/ims/eve.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Roupas Femininas</h5>
+        <p class="card-text">Seja para se sentir linda no trabalho, brilhar na balada ou criar looks casuais para o fim de semana, estamos aqui para ajudar você a expressar sua verdadeira essência.
+
+            Venha conferir o que preparamos para você e se apaixonar!</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/static/ims/home.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Todas as marcas</h5>
+        <p class="card-text">Nossas coleções são pensadas para mulheres autênticas, que adoram explorar novas tendências, mas sem abrir mão do conforto e da praticidade. Roupas, acessórios, calçados e muito mais, todos com o toque que você merece.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+{% endblock %}
